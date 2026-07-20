@@ -4,5 +4,10 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 #portainer/portainer-ce:2.20.3
-mysql:latest
-redis:latest
+mysql:8.4
+redis:7-alpine
+nginx:stable-alpine
+apache/hertzbeat:1.8.0
+guacamole/guacd:1.5.5
+victoriametrics/victoria-metrics:v1.124.0
+influxdb:2.7.1
